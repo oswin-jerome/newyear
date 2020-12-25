@@ -1,0 +1,67 @@
+body {
+	padding: 0;
+}
+
+canvas {
+	display: block;
+}
+
+.stack canvas{
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -100;
+}
+
+.top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30px;
+    color: rgb(202, 199, 199) !important;
+    z-index: 1000000;
+    text-align: center;
+}
+
+#i1{
+    transform: skewY(5deg);
+    color: rgb(78, 253, 172);
+}
+
+
+
+.bottom{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    
+}
+
+#i2{
+    color: rgb(107, 188, 255);
+}
+
+#scroll{
+    color: rgb(192, 55, 55);
+    text-shadow: none;
+    margin: 0;
+}
+
+#scroll2{
+    color: rgb(55, 110, 192);
+    margin: 0px 10px;
+    text-shadow: none;
+}
+
+#scroll3{
+    margin-top: 10px !important;
+    color: rgb(55, 110, 192);
+    margin: 0px 10px;
+    text-shadow: none;
+}
+
+
